@@ -71,5 +71,5 @@ Python · FastAPI · OSMnx / NetworkX · Ollama or llama.cpp · Leaflet · an op
 ## Data, attribution and licences
 
 - Code: MIT (see [LICENSE](LICENSE)).
-- Map data © OpenStreetMap contributors (ODbL). Air-quality forecasts: CAMS via Open-Meteo, with attribution. Station data: CPCB via WAQI; a WAQI token is required, so check their terms and keep it in `.env` (see `.env.example`).
+- Map data © OpenStreetMap contributors (ODbL). Air-quality forecasts: CAMS via Open-Meteo, with attribution. Station data: CPCB via WAQI; a WAQI token is required, so check their terms and keep it in `.env`.
 - Model weights are **not** included and carry their own licences. Check the licence of the model you choose.
