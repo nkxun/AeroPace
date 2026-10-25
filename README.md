@@ -6,7 +6,7 @@ CleanCommute runs a small open-weight language model locally (through Ollama or 
 
 > **Status: early skeleton for Hacktoberfest Hack Day 2026.** The skills are defined; the engine and UI are under construction (see the roadmap). Nothing here has been measured or validated yet.
 
-Demo city: **[CITY]** · Team: **[TEAM NAME]**
+Demo city: **[LUCKNOW]** · Team: **[CODE CRUSADERS]**
 
 ## The problem
 
