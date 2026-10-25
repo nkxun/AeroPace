@@ -2,7 +2,7 @@
 
 **An open-weight AI agent that plans when and how to travel with less air-pollution exposure.**
 
-CleanCommute runs a small open-weight language model locally (through Ollama or llama.cpp). It turns English or Hinglish requests such as *"I walk to college, must reach by 9, when should I leave?"* into structured calls to [Agent Skills](https://agentskills.io/). A deterministic, tested engine produces every number. The model understands the request, picks skills and explains the result, quoting assumptions and uncertainty.
+CleanCommute runs a small open-weight language model locally (through Ollama or llama.cpp). It turns English or Hinglish requests such as *"I need to travel across the city this afternoon. Is there a less polluted route, and would leaving a little later make a difference?"* into structured calls to [Agent Skills](https://agentskills.io/). A deterministic, tested engine produces every number. The model understands the request, picks skills and explains the result, quoting assumptions and uncertainty.
 
 > **Status: early skeleton for Hacktoberfest Hack Day 2026.** The skills are defined; the engine and UI are under construction (see the roadmap). Nothing here has been measured or validated yet.
 
