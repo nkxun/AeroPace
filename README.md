@@ -64,7 +64,7 @@ Python · FastAPI · OSMnx / NetworkX · Ollama or llama.cpp · Leaflet · an op
 
 ## Limits and honesty
 
-- Public data are sparse: a city like [CITY] has only a handful of reporting stations, so street-level values are **estimated, not measured**.
+- Public data are sparse: a city like [LUCKNOW] has only a handful of reporting stations, so street-level values are **estimated, not measured**.
 - Route-level differences are **model assumptions**. Time-of-day effects are better supported than street-level ones.
 - CleanCommute shows relative exposure. It is **not medical advice**, and no health benefit is claimed.
 
