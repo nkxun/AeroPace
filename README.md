@@ -1,8 +1,8 @@
-# CleanCommute
+# AeroPace
 
 **An open-weight AI agent that plans when and how to travel with less air-pollution exposure.**
 
-CleanCommute runs a small open-weight language model locally (through Ollama or llama.cpp). It turns English or Hinglish requests such as *"I need to travel across the city this afternoon. Is there a less polluted route, and would leaving a little later make a difference?"* into structured calls to [Agent Skills](https://agentskills.io/). A deterministic, tested engine produces every number. The model understands the request, picks skills and explains the result, quoting assumptions and uncertainty.
+AeroPace runs a small open-weight language model locally (through Ollama or llama.cpp). It turns English or Hinglish requests such as *"I need to travel across the city this afternoon. Is there a less polluted route, and would leaving a little later make a difference?"* into structured calls to [Agent Skills](https://agentskills.io/). A deterministic, tested engine produces every number. The model understands the request, picks skills and explains the result, quoting assumptions and uncertainty.
 
 > **Status: early skeleton for Hacktoberfest Hack Day 2026.** The skills are defined; the engine and UI are under construction (see the roadmap). Nothing here has been measured or validated yet.
 
@@ -16,7 +16,7 @@ An AQI number describes a place, not a trip. Published studies suggest that mode
 - In New Delhi auto-rickshaws, in-vehicle PM2.5 was about 1.5 times the simultaneous ambient level ([Apte et al., *Atmospheric Environment*, 2011](https://depts.washington.edu/airqual/Marshall_29.pdf)).
 - In Indo-Gangetic Plain winters, a shallower boundary layer and weaker winds reduce ventilation roughly fourfold ([Ojha et al., *Scientific Reports*, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7125076)).
 
-Google Maps shows an air-quality layer by location. IIT Kharagpur's DRUM prototype offers least-exposure routing, simulated on Delhi corridors, with departure-time forecasting and non-motorised modes listed as future work (mid-2025 reports). CleanCommute aims to add departure-time advice, mode-aware dose and honest uncertainty.
+Google Maps shows an air-quality layer by location. IIT Kharagpur's DRUM prototype offers least-exposure routing, simulated on Delhi corridors, with departure-time forecasting and non-motorised modes listed as future work (mid-2025 reports). AeroPace aims to add departure-time advice, mode-aware dose and honest uncertainty.
 
 ## How it works
 
@@ -66,7 +66,7 @@ Python · FastAPI · OSMnx / NetworkX · Ollama or llama.cpp · Leaflet · an op
 
 - Public data are sparse: a city like LUCKNOW has only a handful of reporting stations, so street-level values are **estimated, not measured**.
 - Route-level differences are **model assumptions**. Time-of-day effects are better supported than street-level ones.
-- CleanCommute shows relative exposure. It is **not medical advice**, and no health benefit is claimed.
+- AeroPace shows relative exposure. It is **not medical advice**, and no health benefit is claimed.
 
 ## Data, attribution and licences
 
